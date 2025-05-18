@@ -1,0 +1,21 @@
+# Maven build
+target/
+*.class
+*.jar
+*.war
+
+# Logs
+*.log
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# OS files
+.DS_Store
+
+# Docker artifacts
+*.tar
+.env
+docker-compose.override.yml
