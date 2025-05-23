@@ -34,3 +34,8 @@ services:
     links:
       - eureka
       - config
+
+  zuul-server:
+    image: localhost:5000/aman/zuul-server:otrs-SNAPSHOT
+    ports:
+      - "8765:8765"

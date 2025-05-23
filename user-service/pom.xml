@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.learn</groupId>
-        <artifactId>Chapter5-patterns</artifactId>
+        <artifactId>otrs</artifactId>
         <version>otrs-SNAPSHOT</version>
     </parent>
 
@@ -18,7 +18,7 @@
         <docker.registry.name>localhost:5000/</docker.registry.name>
         <docker.repository.name>${docker.registry.name}aman/${project.artifactId}</docker.repository.name>
         <docker.host.address>localhost</docker.host.address>
-        <docker.port>8082</docker.port>
+        <docker.port>8080</docker.port>
     </properties>
 
     <dependencies>
