@@ -42,6 +42,9 @@ server:
 
 
 ---
+# For deployment in Docker containers
+spring:
+  profiles: docker
 
 server:
   port: 8080
