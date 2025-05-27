@@ -19,3 +19,8 @@ target/
 *.tar
 .env
 docker-compose.override.yml
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
