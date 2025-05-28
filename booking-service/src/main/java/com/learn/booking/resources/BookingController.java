@@ -117,6 +117,6 @@ public class BookingController {
       logger.log(Level.SEVERE, "Exception raised add Booking REST Call {0}", ex);
       throw ex;
     }
-    return new ResponseEntity<>(HttpStatus.CREATED);
+    return new ResponseEntity<>(booking,HttpStatus.CREATED);
   }
 }

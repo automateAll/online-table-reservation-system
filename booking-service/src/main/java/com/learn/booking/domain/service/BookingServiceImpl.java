@@ -32,9 +32,14 @@ public class BookingServiceImpl extends BaseService<Booking, String>
 
   @Override
   public void add(Booking booking) throws Exception {
-    if (bookingRepository.containsName(booking.getName())) {
-      Object[] args = {booking.getName()};
-      throw new DuplicateBookingException("duplicateBooking", args);
+    Collection<Booking> existingBookings = bookingRepository.getAll();
+    for (Booking existing : existingBookings) {
+      if (existing.getName().equals(booking.getName()) &&
+              existing.getRestaurantId().equals(booking.getRestaurantId()) &&
+              existing.getDate().equals(booking.getDate()) &&
+              existing.getTime().equals(booking.getTime())) {
+        throw new DuplicateBookingException("duplicateBooking");
+      }
     }
 
     if (booking.getName() == null || "".equals(booking.getName())) {
