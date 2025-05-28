@@ -27,7 +27,18 @@ zuul:
       path: /restaurantapi/**
       serviceId: restaurant-service
       stripPrefix: true
-
+    bookingapi:
+      path: /bookingapi/**
+      serviceId: booking-service
+      stripPrefix: true
+    userapi:
+      path: /userapi/**
+      serviceId: user-service
+      stripPrefix: true
+    intelligentapi:
+      path: /intelligentapi/**
+      serviceId: ai-service
+      stripPrefix: true
 server:
   port: 8765
   compression:
