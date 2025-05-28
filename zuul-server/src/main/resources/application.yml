@@ -9,6 +9,9 @@ spring:
   main:
     allow-bean-definition-overriding: true
 
+cors:
+  allowedOrigin: http://localhost:4200
+
 endpoints:
   restart:
     enabled: true
@@ -81,6 +84,9 @@ app:
 
 spring:
   profiles: docker
+
+cors:
+  allowedOrigin: https://otrs-ui.mycompany.com
 
 eureka:
   client:
