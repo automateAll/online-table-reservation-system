@@ -2,7 +2,7 @@ package com.learn.user.resources.docker;
 
 /**
  *
- * @author Sourabh Sharma
+ * @author Amandeep Singh
  */
 public interface DockerIT {
     // Marker for Docker integratino Tests

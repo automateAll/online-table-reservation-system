@@ -8,7 +8,7 @@ import java.util.Collection;
 import java.util.Map;
 
 /**
- * @author Sourabh Sharma
+ * @author Amandeep Singh
  */
 public interface UserService {
 

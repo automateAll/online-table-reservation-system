@@ -11,7 +11,7 @@ import static org.junit.Assert.assertEquals;
 
 /**
  *
- * @author Sourabh Sharma
+ * @author Amandeep Singh
  */
 @Category(DockerIT.class)
 public class RestaurantAppDockerIT {

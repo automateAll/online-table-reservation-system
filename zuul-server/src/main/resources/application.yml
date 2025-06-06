@@ -35,6 +35,10 @@ zuul:
       path: /userapi/**
       serviceId: user-service
       stripPrefix: true
+    authapi:
+      path: /authapi/**
+      serviceId: security-service
+      stripPrefix: true
     intelligentapi:
       path: /intelligentapi/**
       serviceId: ai-service

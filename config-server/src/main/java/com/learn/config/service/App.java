@@ -12,7 +12,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.init.ResourceDatabasePopulator;
 
 /**
- * @author Sourabh Sharma
+ * @author Amandeep Singh
  */
 @SpringBootApplication
 @EnableConfigServer

@@ -3,7 +3,7 @@ package com.learn.booking.domain.repository;
 /**
  * @param <TE>
  * @param <T>
- * @author Sourabh Sharma
+ * @author Amandeep Singh
  */
 public interface Repository<TE, T> extends ReadOnlyRepository<TE, T> {
 

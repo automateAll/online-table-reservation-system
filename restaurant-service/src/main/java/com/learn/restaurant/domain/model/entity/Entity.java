@@ -2,7 +2,7 @@ package com.learn.restaurant.domain.model.entity;
 
 /**
  * @param <T>
- * @author Sourabh Sharma
+ * @author Amandeep Singh
  */
 public abstract class Entity<T> {
 

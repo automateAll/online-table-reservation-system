@@ -5,7 +5,7 @@ import java.util.Collection;
 /**
  * @param <TE>
  * @param <T>
- * @author Sourabh Sharma
+ * @author Amandeep Singh
  */
 public interface ReadOnlyRepository<TE, T> {
 

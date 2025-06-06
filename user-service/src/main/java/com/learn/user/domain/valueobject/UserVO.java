@@ -1,7 +1,7 @@
 package com.learn.user.domain.valueobject;
 
 /**
- * @author Sourabh Sharma
+ * @author Amandeep Singh
  */
 public class UserVO {
 

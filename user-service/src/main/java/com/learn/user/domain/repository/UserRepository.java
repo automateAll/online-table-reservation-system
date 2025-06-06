@@ -5,7 +5,7 @@ import java.util.Collection;
 /**
  * @param <User>
  * @param <String>
- * @author Sourabh Sharma
+ * @author Amandeep Singh
  */
 public interface UserRepository<Booking, String> extends Repository<Booking, String> {
 

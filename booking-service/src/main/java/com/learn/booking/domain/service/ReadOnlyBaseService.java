@@ -5,7 +5,7 @@ import com.learn.booking.domain.repository.ReadOnlyRepository;
 /**
  * @param <TE>
  * @param <T>
- * @author Sourabh Sharma
+ * @author Amandeep Singh
  */
 public abstract class ReadOnlyBaseService<TE, T> {
 

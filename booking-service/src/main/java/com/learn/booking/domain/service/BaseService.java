@@ -7,7 +7,7 @@ import java.util.Collection;
 /**
  * @param <TE>
  * @param <T>
- * @author Sourabh Sharma
+ * @author Amandeep Singh
  */
 public abstract class BaseService<TE, T> extends ReadOnlyBaseService<TE, T> {
 
