@@ -69,7 +69,7 @@
 
                             <build>
                                 <from>openjdk:11-jre</from>
-                                <maintainer>sourabhh</maintainer>
+                                <maintainer>Amandeep</maintainer>
                                 <assembly>
                                     <descriptor>docker-assembly.xml</descriptor>
                                 </assembly>
