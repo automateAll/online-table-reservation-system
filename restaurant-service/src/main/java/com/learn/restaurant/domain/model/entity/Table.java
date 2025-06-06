@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.math.BigInteger;
 
 /**
- * @author Sourabh Sharma
+ * @author Amandeep Singh
  */
 public class Table extends BaseEntity<BigInteger> {
 

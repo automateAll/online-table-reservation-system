@@ -13,7 +13,7 @@ import java.util.Collection;
 import java.util.Map;
 
 /**
- * @author Sourabh Sharma
+ * @author Amandeep Singh
  */
 @Service("restaurantService")
 public class RestaurantServiceImpl extends BaseService<Restaurant, String>

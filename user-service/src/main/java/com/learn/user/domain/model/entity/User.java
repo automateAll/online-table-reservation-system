@@ -1,7 +1,7 @@
 package com.learn.user.domain.model.entity;
 
 /**
- * @author Sourabh Sharma
+ * @author Amandeep Singh
  */
 public class User extends BaseEntity<String> {
 

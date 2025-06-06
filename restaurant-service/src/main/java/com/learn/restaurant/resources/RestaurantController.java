@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @author Sourabh Sharma
+ * @author Amandeep Singh
  */
 @RestController
 @RequestMapping("/v1/restaurants")
