@@ -17,7 +17,7 @@ A scalable and modular backend system built using Spring Boot microservices. It 
 
 ---
 
-✅ Prerequisites
+## 🧩 Pre-requisites
 
 Before running the backend services, make sure your system meets the following requirements:
 
